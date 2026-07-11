@@ -1,0 +1,2 @@
+[15-Aug-2025 13:59:27 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /home/dana2971/public_html/smarteacheraiapi.danabpkbmotor.com/app/Http/Controllers/GoogleAuthController.php on line 13
+[16-Dec-2025 08:55:58 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\GoogleAuthController::handleGoogleCallback() in /home/chelnock/public_html/dash.smartteacherai.id/app/Http/Controllers/GoogleAuthController.php on line 62

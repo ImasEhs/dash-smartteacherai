@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class CourseReview extends Model
+{
+
+    protected $table = 'user_course_reviews';
+
+    protected $fillable = ['user_id', 'course_id', 'file', 'score'];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function course()
+    {
+        return $this->belongsTo(Course::class);
+    }
+}

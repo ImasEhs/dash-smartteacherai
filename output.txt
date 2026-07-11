@@ -1,0 +1,1573 @@
+array(2) {
+  ["models"]=>
+  array(50) {
+    [0]=>
+    array(12) {
+      ["name"]=>
+      string(23) "models/gemini-2.5-flash"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(16) "Gemini 2.5 Flash"
+      ["description"]=>
+      string(129) "Stable version of Gemini 2.5 Flash, our mid-size multimodal model that supports up to 1 million tokens, released in June of 2025."
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [1]=>
+    array(12) {
+      ["name"]=>
+      string(21) "models/gemini-2.5-pro"
+      ["version"]=>
+      string(3) "2.5"
+      ["displayName"]=>
+      string(14) "Gemini 2.5 Pro"
+      ["description"]=>
+      string(50) "Stable release (June 17th, 2025) of Gemini 2.5 Pro"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [2]=>
+    array(11) {
+      ["name"]=>
+      string(23) "models/gemini-2.0-flash"
+      ["version"]=>
+      string(3) "2.0"
+      ["displayName"]=>
+      string(16) "Gemini 2.0 Flash"
+      ["description"]=>
+      string(16) "Gemini 2.0 Flash"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(40)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [3]=>
+    array(11) {
+      ["name"]=>
+      string(27) "models/gemini-2.0-flash-001"
+      ["version"]=>
+      string(3) "2.0"
+      ["displayName"]=>
+      string(20) "Gemini 2.0 Flash 001"
+      ["description"]=>
+      string(138) "Stable version of Gemini 2.0 Flash, our fast and versatile multimodal model for scaling across diverse tasks, released in January of 2025."
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(40)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [4]=>
+    array(11) {
+      ["name"]=>
+      string(32) "models/gemini-2.0-flash-lite-001"
+      ["version"]=>
+      string(3) "2.0"
+      ["displayName"]=>
+      string(25) "Gemini 2.0 Flash-Lite 001"
+      ["description"]=>
+      string(39) "Stable version of Gemini 2.0 Flash-Lite"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(40)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [5]=>
+    array(11) {
+      ["name"]=>
+      string(28) "models/gemini-2.0-flash-lite"
+      ["version"]=>
+      string(3) "2.0"
+      ["displayName"]=>
+      string(21) "Gemini 2.0 Flash-Lite"
+      ["description"]=>
+      string(21) "Gemini 2.0 Flash-Lite"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(40)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [6]=>
+    array(11) {
+      ["name"]=>
+      string(35) "models/gemini-2.5-flash-preview-tts"
+      ["version"]=>
+      string(35) "gemini-2.5-flash-exp-tts-2025-05-19"
+      ["displayName"]=>
+      string(28) "Gemini 2.5 Flash Preview TTS"
+      ["description"]=>
+      string(28) "Gemini 2.5 Flash Preview TTS"
+      ["inputTokenLimit"]=>
+      int(8192)
+      ["outputTokenLimit"]=>
+      int(16384)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(11) "countTokens"
+        [1]=>
+        string(15) "generateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [7]=>
+    array(11) {
+      ["name"]=>
+      string(33) "models/gemini-2.5-pro-preview-tts"
+      ["version"]=>
+      string(37) "gemini-2.5-pro-preview-tts-2025-05-19"
+      ["displayName"]=>
+      string(26) "Gemini 2.5 Pro Preview TTS"
+      ["description"]=>
+      string(26) "Gemini 2.5 Pro Preview TTS"
+      ["inputTokenLimit"]=>
+      int(8192)
+      ["outputTokenLimit"]=>
+      int(16384)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(11) "countTokens"
+        [1]=>
+        string(15) "generateContent"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [8]=>
+    array(12) {
+      ["name"]=>
+      string(25) "models/gemma-4-26b-a4b-it"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(18) "Gemma 4 26B A4B IT"
+      ["description"]=>
+      string(18) "Gemma 4 26B A4B IT"
+      ["inputTokenLimit"]=>
+      int(262144)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [9]=>
+    array(12) {
+      ["name"]=>
+      string(21) "models/gemma-4-31b-it"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(14) "Gemma 4 31B IT"
+      ["description"]=>
+      string(14) "Gemma 4 31B IT"
+      ["inputTokenLimit"]=>
+      int(262144)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [10]=>
+    array(12) {
+      ["name"]=>
+      string(26) "models/gemini-flash-latest"
+      ["version"]=>
+      string(19) "Gemini Flash Latest"
+      ["displayName"]=>
+      string(19) "Gemini Flash Latest"
+      ["description"]=>
+      string(30) "Latest release of Gemini Flash"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [11]=>
+    array(12) {
+      ["name"]=>
+      string(31) "models/gemini-flash-lite-latest"
+      ["version"]=>
+      string(24) "Gemini Flash-Lite Latest"
+      ["displayName"]=>
+      string(24) "Gemini Flash-Lite Latest"
+      ["description"]=>
+      string(35) "Latest release of Gemini Flash-Lite"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [12]=>
+    array(12) {
+      ["name"]=>
+      string(24) "models/gemini-pro-latest"
+      ["version"]=>
+      string(17) "Gemini Pro Latest"
+      ["displayName"]=>
+      string(17) "Gemini Pro Latest"
+      ["description"]=>
+      string(28) "Latest release of Gemini Pro"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [13]=>
+    array(12) {
+      ["name"]=>
+      string(28) "models/gemini-2.5-flash-lite"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(21) "Gemini 2.5 Flash-Lite"
+      ["description"]=>
+      string(65) "Stable version of Gemini 2.5 Flash-Lite, released in July of 2025"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [14]=>
+    array(11) {
+      ["name"]=>
+      string(29) "models/gemini-2.5-flash-image"
+      ["version"]=>
+      string(3) "2.0"
+      ["displayName"]=>
+      string(11) "Nano Banana"
+      ["description"]=>
+      string(30) "Gemini 2.5 Flash Preview Image"
+      ["inputTokenLimit"]=>
+      int(32768)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+    }
+    [15]=>
+    array(12) {
+      ["name"]=>
+      string(27) "models/gemini-3-pro-preview"
+      ["version"]=>
+      string(21) "3-pro-preview-11-2025"
+      ["displayName"]=>
+      string(20) "Gemini 3 Pro Preview"
+      ["description"]=>
+      string(20) "Gemini 3 Pro Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [16]=>
+    array(12) {
+      ["name"]=>
+      string(29) "models/gemini-3-flash-preview"
+      ["version"]=>
+      string(23) "3-flash-preview-12-2025"
+      ["displayName"]=>
+      string(22) "Gemini 3 Flash Preview"
+      ["description"]=>
+      string(22) "Gemini 3 Flash Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [17]=>
+    array(12) {
+      ["name"]=>
+      string(29) "models/gemini-3.1-pro-preview"
+      ["version"]=>
+      string(23) "3.1-pro-preview-01-2026"
+      ["displayName"]=>
+      string(22) "Gemini 3.1 Pro Preview"
+      ["description"]=>
+      string(22) "Gemini 3.1 Pro Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [18]=>
+    array(12) {
+      ["name"]=>
+      string(41) "models/gemini-3.1-pro-preview-customtools"
+      ["version"]=>
+      string(23) "3.1-pro-preview-01-2026"
+      ["displayName"]=>
+      string(35) "Gemini 3.1 Pro Preview Custom Tools"
+      ["description"]=>
+      string(54) "Gemini 3.1 Pro Preview optimized for custom tool usage"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [19]=>
+    array(12) {
+      ["name"]=>
+      string(36) "models/gemini-3.1-flash-lite-preview"
+      ["version"]=>
+      string(30) "3.1-flash-lite-preview-03-2026"
+      ["displayName"]=>
+      string(29) "Gemini 3.1 Flash Lite Preview"
+      ["description"]=>
+      string(29) "Gemini 3.1 Flash Lite Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [20]=>
+    array(12) {
+      ["name"]=>
+      string(28) "models/gemini-3.1-flash-lite"
+      ["version"]=>
+      string(22) "3.1-flash-lite-05-2026"
+      ["displayName"]=>
+      string(21) "Gemini 3.1 Flash Lite"
+      ["description"]=>
+      string(21) "Gemini 3.1 Flash Lite"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [21]=>
+    array(12) {
+      ["name"]=>
+      string(33) "models/gemini-3-pro-image-preview"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(15) "Nano Banana Pro"
+      ["description"]=>
+      string(26) "Gemini 3 Pro Image Preview"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [22]=>
+    array(12) {
+      ["name"]=>
+      string(25) "models/gemini-3-pro-image"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(15) "Nano Banana Pro"
+      ["description"]=>
+      string(18) "Gemini 3 Pro Image"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [23]=>
+    array(12) {
+      ["name"]=>
+      string(30) "models/nano-banana-pro-preview"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(15) "Nano Banana Pro"
+      ["description"]=>
+      string(26) "Gemini 3 Pro Image Preview"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(32768)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [24]=>
+    array(12) {
+      ["name"]=>
+      string(37) "models/gemini-3.1-flash-image-preview"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(13) "Nano Banana 2"
+      ["description"]=>
+      string(31) "Gemini 3.1 Flash Image Preview."
+      ["inputTokenLimit"]=>
+      int(65536)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [25]=>
+    array(12) {
+      ["name"]=>
+      string(29) "models/gemini-3.1-flash-image"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(13) "Nano Banana 2"
+      ["description"]=>
+      string(23) "Gemini 3.1 Flash Image."
+      ["inputTokenLimit"]=>
+      int(65536)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [26]=>
+    array(12) {
+      ["name"]=>
+      string(34) "models/gemini-3.1-flash-lite-image"
+      ["version"]=>
+      string(3) "3.0"
+      ["displayName"]=>
+      string(18) "Nano Banana 2 Lite"
+      ["description"]=>
+      string(28) "Gemini 3.1 Flash Lite Image."
+      ["inputTokenLimit"]=>
+      int(65536)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(1)
+      ["thinking"]=>
+      bool(true)
+    }
+    [27]=>
+    array(12) {
+      ["name"]=>
+      string(23) "models/gemini-3.5-flash"
+      ["version"]=>
+      string(17) "3.5-flash-05-2026"
+      ["displayName"]=>
+      string(16) "Gemini 3.5 Flash"
+      ["description"]=>
+      string(16) "Gemini 3.5 Flash"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [28]=>
+    array(12) {
+      ["name"]=>
+      string(32) "models/gemini-omni-flash-preview"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(25) "Gemini Omni Flash Preview"
+      ["description"]=>
+      string(25) "Gemini Omni Flash Preview"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [29]=>
+    array(11) {
+      ["name"]=>
+      string(27) "models/lyria-3-clip-preview"
+      ["version"]=>
+      string(20) "lyria-3-clip-preview"
+      ["displayName"]=>
+      string(20) "Lyria 3 Clip Preview"
+      ["description"]=>
+      string(25) "Lyria 3 30s model Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [30]=>
+    array(11) {
+      ["name"]=>
+      string(26) "models/lyria-3-pro-preview"
+      ["version"]=>
+      string(19) "lyria-3-pro-preview"
+      ["displayName"]=>
+      string(19) "Lyria 3 Pro Preview"
+      ["description"]=>
+      string(19) "Lyria 3 Pro Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+    }
+    [31]=>
+    array(12) {
+      ["name"]=>
+      string(35) "models/gemini-3.1-flash-tts-preview"
+      ["version"]=>
+      string(21) "3.1-flash-tts-preview"
+      ["displayName"]=>
+      string(28) "Gemini 3.1 Flash TTS Preview"
+      ["description"]=>
+      string(28) "Gemini 3.1 Flash TTS Preview"
+      ["inputTokenLimit"]=>
+      int(8192)
+      ["outputTokenLimit"]=>
+      int(16384)
+      ["supportedGenerationMethods"]=>
+      array(3) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [32]=>
+    array(12) {
+      ["name"]=>
+      string(37) "models/gemini-robotics-er-1.5-preview"
+      ["version"]=>
+      string(11) "1.5-preview"
+      ["displayName"]=>
+      string(30) "Gemini Robotics-ER 1.5 Preview"
+      ["description"]=>
+      string(30) "Gemini Robotics-ER 1.5 Preview"
+      ["inputTokenLimit"]=>
+      int(1048576)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [33]=>
+    array(12) {
+      ["name"]=>
+      string(37) "models/gemini-robotics-er-1.6-preview"
+      ["version"]=>
+      string(11) "1.6-preview"
+      ["displayName"]=>
+      string(30) "Gemini Robotics-ER 1.6 Preview"
+      ["description"]=>
+      string(30) "Gemini Robotics-ER 1.6 Preview"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+        [2]=>
+        string(19) "createCachedContent"
+        [3]=>
+        string(20) "batchGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [34]=>
+    array(12) {
+      ["name"]=>
+      string(46) "models/gemini-2.5-computer-use-preview-10-2025"
+      ["version"]=>
+      string(39) "Gemini 2.5 Computer Use Preview 10-2025"
+      ["displayName"]=>
+      string(39) "Gemini 2.5 Computer Use Preview 10-2025"
+      ["description"]=>
+      string(39) "Gemini 2.5 Computer Use Preview 10-2025"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [35]=>
+    array(7) {
+      ["name"]=>
+      string(34) "models/antigravity-preview-05-2026"
+      ["version"]=>
+      string(3) "0.1"
+      ["displayName"]=>
+      string(25) "Antigravity Agent Preview"
+      ["description"]=>
+      string(46) "Preview release of Antigravity Agent (05-2026)"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+    }
+    [36]=>
+    array(12) {
+      ["name"]=>
+      string(40) "models/deep-research-max-preview-04-2026"
+      ["version"]=>
+      string(19) "deepthink-exp-05-20"
+      ["displayName"]=>
+      string(39) "Deep Research Max Preview (Apr-21-2026)"
+      ["description"]=>
+      string(55) "Preview release (April 21st, 2026) of Deep Research Max"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [37]=>
+    array(12) {
+      ["name"]=>
+      string(36) "models/deep-research-preview-04-2026"
+      ["version"]=>
+      string(19) "deepthink-exp-05-20"
+      ["displayName"]=>
+      string(35) "Deep Research Preview (Apr-21-2026)"
+      ["description"]=>
+      string(51) "Preview release (April 21th, 2026) of Deep Research"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [38]=>
+    array(12) {
+      ["name"]=>
+      string(40) "models/deep-research-pro-preview-12-2025"
+      ["version"]=>
+      string(19) "deepthink-exp-05-20"
+      ["displayName"]=>
+      string(39) "Deep Research Pro Preview (Dec-12-2025)"
+      ["description"]=>
+      string(58) "Preview release (December 12th, 2025) of Deep Research Pro"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(65536)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(15) "generateContent"
+        [1]=>
+        string(11) "countTokens"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+    [39]=>
+    array(7) {
+      ["name"]=>
+      string(27) "models/gemini-embedding-001"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(20) "Gemini Embedding 001"
+      ["description"]=>
+      string(46) "Obtain a distributed representation of a text."
+      ["inputTokenLimit"]=>
+      int(2048)
+      ["outputTokenLimit"]=>
+      int(1)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(12) "embedContent"
+        [1]=>
+        string(15) "countTextTokens"
+        [2]=>
+        string(11) "countTokens"
+        [3]=>
+        string(22) "asyncBatchEmbedContent"
+      }
+    }
+    [40]=>
+    array(7) {
+      ["name"]=>
+      string(33) "models/gemini-embedding-2-preview"
+      ["version"]=>
+      string(1) "2"
+      ["displayName"]=>
+      string(26) "Gemini Embedding 2 Preview"
+      ["description"]=>
+      string(58) "Obtain a distributed representation of multimodal content."
+      ["inputTokenLimit"]=>
+      int(8192)
+      ["outputTokenLimit"]=>
+      int(1)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(12) "embedContent"
+        [1]=>
+        string(15) "countTextTokens"
+        [2]=>
+        string(11) "countTokens"
+        [3]=>
+        string(22) "asyncBatchEmbedContent"
+      }
+    }
+    [41]=>
+    array(7) {
+      ["name"]=>
+      string(25) "models/gemini-embedding-2"
+      ["version"]=>
+      string(1) "2"
+      ["displayName"]=>
+      string(18) "Gemini Embedding 2"
+      ["description"]=>
+      string(58) "Obtain a distributed representation of multimodal content."
+      ["inputTokenLimit"]=>
+      int(8192)
+      ["outputTokenLimit"]=>
+      int(1)
+      ["supportedGenerationMethods"]=>
+      array(4) {
+        [0]=>
+        string(12) "embedContent"
+        [1]=>
+        string(15) "countTextTokens"
+        [2]=>
+        string(11) "countTokens"
+        [3]=>
+        string(22) "asyncBatchEmbedContent"
+      }
+    }
+    [42]=>
+    array(10) {
+      ["name"]=>
+      string(10) "models/aqa"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(50) "Model that performs Attributed Question Answering."
+      ["description"]=>
+      string(129) "Model trained to return answers to questions that are grounded in provided sources, along with estimating answerable probability."
+      ["inputTokenLimit"]=>
+      int(7168)
+      ["outputTokenLimit"]=>
+      int(1024)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(14) "generateAnswer"
+      }
+      ["temperature"]=>
+      float(0.2)
+      ["topP"]=>
+      int(1)
+      ["topK"]=>
+      int(40)
+    }
+    [43]=>
+    array(7) {
+      ["name"]=>
+      string(30) "models/imagen-4.0-generate-001"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(8) "Imagen 4"
+      ["description"]=>
+      string(30) "Vertex served Imagen 4.0 model"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(7) "predict"
+      }
+    }
+    [44]=>
+    array(7) {
+      ["name"]=>
+      string(36) "models/imagen-4.0-ultra-generate-001"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(14) "Imagen 4 Ultra"
+      ["description"]=>
+      string(36) "Vertex served Imagen 4.0 ultra model"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(7) "predict"
+      }
+    }
+    [45]=>
+    array(7) {
+      ["name"]=>
+      string(35) "models/imagen-4.0-fast-generate-001"
+      ["version"]=>
+      string(3) "001"
+      ["displayName"]=>
+      string(13) "Imagen 4 Fast"
+      ["description"]=>
+      string(35) "Vertex served Imagen 4.0 Fast model"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(7) "predict"
+      }
+    }
+    [46]=>
+    array(7) {
+      ["name"]=>
+      string(31) "models/veo-3.1-generate-preview"
+      ["version"]=>
+      string(3) "3.1"
+      ["displayName"]=>
+      string(7) "Veo 3.1"
+      ["description"]=>
+      string(7) "Veo 3.1"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(18) "predictLongRunning"
+      }
+    }
+    [47]=>
+    array(7) {
+      ["name"]=>
+      string(36) "models/veo-3.1-fast-generate-preview"
+      ["version"]=>
+      string(3) "3.1"
+      ["displayName"]=>
+      string(12) "Veo 3.1 fast"
+      ["description"]=>
+      string(12) "Veo 3.1 fast"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(18) "predictLongRunning"
+      }
+    }
+    [48]=>
+    array(7) {
+      ["name"]=>
+      string(36) "models/veo-3.1-lite-generate-preview"
+      ["version"]=>
+      string(3) "3.1"
+      ["displayName"]=>
+      string(12) "Veo 3.1 lite"
+      ["description"]=>
+      string(12) "Veo 3.1 lite"
+      ["inputTokenLimit"]=>
+      int(480)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(1) {
+        [0]=>
+        string(18) "predictLongRunning"
+      }
+    }
+    [49]=>
+    array(12) {
+      ["name"]=>
+      string(43) "models/gemini-2.5-flash-native-audio-latest"
+      ["version"]=>
+      string(36) "Gemini 2.5 Flash Native Audio Latest"
+      ["displayName"]=>
+      string(36) "Gemini 2.5 Flash Native Audio Latest"
+      ["description"]=>
+      string(47) "Latest release of Gemini 2.5 Flash Native Audio"
+      ["inputTokenLimit"]=>
+      int(131072)
+      ["outputTokenLimit"]=>
+      int(8192)
+      ["supportedGenerationMethods"]=>
+      array(2) {
+        [0]=>
+        string(11) "countTokens"
+        [1]=>
+        string(19) "bidiGenerateContent"
+      }
+      ["temperature"]=>
+      int(1)
+      ["topP"]=>
+      float(0.95)
+      ["topK"]=>
+      int(64)
+      ["maxTemperature"]=>
+      int(2)
+      ["thinking"]=>
+      bool(true)
+    }
+  }
+  ["nextPageToken"]=>
+  string(60) "Cittb2RlbHMvZ2VtaW5pLTIuNS1mbGFzaC1uYXRpdmUtYXVkaW8tbGF0ZXN0"
+}
