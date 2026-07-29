@@ -91,7 +91,7 @@
                   <div class="row align-items-center">
                      <div class="col-auto">
                         <div class="avatar-lg">
-                           <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle img-thumbnail">
+                           <img src="{{ $user->avatar ? asset($user->avatar) : asset('assets/images/users/avatar-1.jpg') }}" alt="Profile" class="rounded-circle img-thumbnail" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                      </div>
                      <div class="col">
