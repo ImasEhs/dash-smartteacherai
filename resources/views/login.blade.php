@@ -214,12 +214,14 @@
             Login with<strong>Facebook</strong>
           </button>
           
+          {{--
           @if(app()->environment('local'))
           <a href="{{ url('/bypass-login') }}" class="social-btn text-decoration-none text-dark" style="background: #e2e8f0; border-color: #cbd5e1;">
             <i class="bi bi-bug-fill"></i>
             <strong>Bypass Login</strong> (Khusus Lokal)
           </a>
           @endif
+          --}}
         </div>
       </div>
     </div>
